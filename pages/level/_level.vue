@@ -3,7 +3,7 @@
     <div class="d-flex flex-column">
       <br>
       <div class="row">
-        <div class="col-md-6" v-for="(pic, index) in pics" :key="`pic-${index}`">
+        <div class="col" v-for="(pic, index) in pics" :key="`pic-${index}`">
           <div class="panel panel-default">
             <img :src="pic" alt="pic" class="img-responsive" style="width: 100%; margin-bottom: 10px;  height: 225px;">
           </div>
