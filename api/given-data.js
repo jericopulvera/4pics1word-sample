@@ -2,10 +2,10 @@ module.exports = [
   // Level 1
   {
     pics: [
-      'http://via.placeholder.com/350x150',
-      'http://via.placeholder.com/350x150',
-      'http://via.placeholder.com/350x150',
-      'http://via.placeholder.com/350x150'
+      '/wind.jpg',
+      '/wind.jpg',
+      '/wind.jpg',
+      '/wind.jpg'
     ],
     jumbledWord: [
       { letter: 'w', inputted: false },
@@ -25,10 +25,10 @@ module.exports = [
   // Level 2
   {
     pics: [
-      'http://via.placeholder.com/350x150',
-      'http://via.placeholder.com/350x150',
-      'http://via.placeholder.com/350x150',
-      'http://via.placeholder.com/350x150'
+      '/fire.jpg',
+      '/fire.jpg',
+      '/fire.jpg',
+      '/fire.jpg'
     ],
     jumbledWord: [
       { letter: 'f', inputted: false },
@@ -48,10 +48,10 @@ module.exports = [
   // Level 3
   {
     pics: [
-      'http://via.placeholder.com/350x150',
-      'http://via.placeholder.com/350x150',
-      'http://via.placeholder.com/350x150',
-      'http://via.placeholder.com/350x150'
+      '/water.jpg',
+      '/water.jpg',
+      '/water.jpg',
+      '/water.jpg'
     ],
     jumbledWord: [
       { letter: 'o', inputted: false },

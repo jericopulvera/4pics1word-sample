@@ -1,6 +1,6 @@
 # 
 
-> My ultimate Nuxt.js project
+> 4 pics 1 word sample built on nuxt
 
 ## Build Setup
 

@@ -1,7 +1,7 @@
 {
-  "name": "4pics1word Sample",
+  "name": "4pics1word",
   "version": "1.0.0",
-  "description": "My ultimate Nuxt.js project",
+  "description": "Jerico Pulvera 4 pics 1 word sample",
   "author": "",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/pwa": "^2.0.8",
     "nuxt": "^1.0.0"
   },
   "devDependencies": {

@@ -5,13 +5,13 @@
       <div class="row">
         <div class="col-md-6" v-for="(pic, index) in pics" :key="`pic-${index}`">
           <div class="panel panel-default">
-            <img :src="pic" alt="pic" class="img-responsive" style="width: 100%; margin-bottom: 10px;">
+            <img :src="pic" alt="pic" class="img-responsive" style="width: 100%; margin-bottom: 10px;  height: 225px;">
           </div>
         </div>
       </div>
       <div class="row  justify-content-center">
         <template v-for="(item, index) in answer">
-          <button style="border-style: solid; border-color: green; padding: 10px; margin: 8px; width: 100px; height: 100px;  cursor: pointer;" class="col-md-2" :key="`letter-${index}`" @click.prevent="removeLetter(item.index)">
+          <button style="border-style: solid; border-color: green; padding: 10px; margin: 8px; width: 100px; height: 100px;  cursor: pointer;" class="col" :key="`letter-${index}`" @click.prevent="removeLetter(item.index)">
             <span style="font-size: 50px">{{ item.letter }} </span>
           </button>
         </template>
@@ -20,7 +20,7 @@
       <br>
       <br>
       <div class="row">
-        <div class="col-md-2" v-for="(letter, index) in jumbledWord" :key="`letter-${index}`">
+        <div class="col" v-for="(letter, index) in jumbledWord" :key="`letter-${index}`">
           <button style="border-style: solid; border-color: red; margin-bottom: 5px; width: 100px; height: 100px;" @click.prevent="pushLetter(letter, index)" :disabled="letter.inputted" :style="letter.inputted ? 'cursor: not-allowed;' : 'cursor: pointer;'">
             <span style="font-size: 50px">{{ !letter.inputted ? letter.letter : '' }}</span>
           </button>
